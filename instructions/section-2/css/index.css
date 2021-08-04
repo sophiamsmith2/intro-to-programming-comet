@@ -1,0 +1,88 @@
+/*  use media query to check to make sure website is available on all devices */
+@media {
+
+    /* change the background color */
+body {
+    background-color: #90b17c
+    }
+
+/* change the default text color */
+* {
+    /* add padding and margins */
+    margin: 1px;
+    padding: 1em 2em;
+    /* change the default text color */
+    color: rgba(75, 21, 21, 0.63);
+    /* change the font family */
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* change the font size, font weight, and font color of all the headings */
+h1 {
+    font-weight: bold;
+    color: rgba(4, 44, 4, 0.616);
+    font-size: 32px;
+  }
+h2 {
+    font-weight: bold;
+    color:  rgba(4, 44, 4, 0.616);
+    font-size: 24px;
+}
+
+/* transform experience section into styled box */
+#experience {
+    width: 400px;
+    height: 480px;
+    margin: 30px;
+    padding: 15px;
+    background: rgb(241, 233, 153);
+  }
+
+/* transform skills section into styled box */
+#skills {
+    width: 600px;
+    height: 400px; 
+    margin: 30px;
+    padding: 15px;
+    background: rgb(107, 105, 228);
+}
+
+/* style messages form elements */
+    /* change font size and color of the labels */
+label {
+    font-size: 24px;
+    color: rgba(7, 126, 27, 0.384); 
+    display: block;
+}
+    /* change padding, and border of form fields */
+textarea, input {
+    padding: 15px;
+    border-style: groove;
+}
+    /* change padding, background color, and border of submit button */
+button {
+    padding: 20px;
+    background-color: rgba(216, 91, 1, 0.74);
+    border-style: solid;
+}
+
+/* transform the messages list into styled blocks and change the color  */
+.messageStyle {
+    width: 205px;
+    height: 50px; 
+    margin: 10px;
+    padding: 15px;
+    background: rgb(198, 166, 250);  
+}
+.removeButt {
+    padding: 10px;
+    background-color: rgba(216, 91, 1, 0.74);
+    border-style: solid; 
+}
+
+/* change the spacing and background color of the footer */
+footer {
+    background-color: rgba(169, 169, 169, 0.726);
+    letter-spacing: 3px;
+}
+}

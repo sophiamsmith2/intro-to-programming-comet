@@ -5,34 +5,44 @@
    
 <!-- head/title element -->
     <head>
+
         <title> Sophia's Portfolio </title>
+
+        <!--link css to html-->
+        <link rel = 'stylesheet' href = 'css/index.css'></link>
+
     </head>
+    
     <!-- body prev lessons -->
     <body>
+        
         <!--  sections for about, experience, connect-->
         <!--  create h1 tags for all headings-->
         
         <section>
            
             <h1> About:</h1>
+           
             <!-- wrap in p tags-->
             <p> Hello I am Sophia. I am currently learning JavaScript. I like everything to be neat and pretty.</p> 
         
         </section>
         
-        <section>
+        <section id = 'experience'>
+            
             <h1>Experience:</h1> 
+            
             <!--  wrap in ul and li tags -->
                 <ul>
-                <il>Starbucks</li>
+                <li>Starbucks</li>
                 <li>Public Storage</li>
                 <li>Food Lion</li>
                 </ul>
            
             </section>
         
-            <!-- add skills section editted in js file--> 
-       <section id = 'skills'>
+        <!-- add skills section editted in js file--> 
+        <section id = 'skills'>
            
             <h2>Skills:</h2>
                 
@@ -52,19 +62,20 @@
         
          </section> 
         
-         <!-- add section w h2 header and form section-->
+        <!-- add section w h2 header and form section -->
         <section>
+           
             <h2>Leave a Message</h2>
            
             <form name = 'leave_message' id = 'leave_message'> 
                
-                <label for = 'name'>Name:</label><br>
-                <input type= 'text' name = 'name' required = true></input><br>
+                <label for = 'name'>Name:</label>
+                <input type= 'text' name = 'name' required = true></input>
                 
-                <label for = 'email'>Email:</label><br>
-                <input type = 'email' name = 'email' required = true></input><br>
+                <label for = 'email'>Email:</label>
+                <input type = 'email' name = 'email' required = true></input>
                 
-                <label for = 'message'>Message:</label><br>
+                <label for = 'message'>Message:</label>
                 <textarea name = 'message' required = 'true'></textarea><br>
 
                 <button type = 'submit'>Submit</button>
@@ -72,7 +83,8 @@
             </form>
 
          </section>
-        <!-- add a section w id, h2 element, and an empty ul-->
+        
+         <!-- add a section w id, h2 element, and an empty ul -->
          <section id = 'messages'>
 
             <h2>Messages:</h2>

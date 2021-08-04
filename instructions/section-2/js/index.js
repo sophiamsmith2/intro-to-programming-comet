@@ -42,11 +42,13 @@ var messageForm = document.getElementById('leave_message');
               var newMessage = document.createElement('li');
             // use innerHTML to add <a> element and <span> element
                 newMessage.innerHTML = ('<a href="mailto:' + vemail + '">' + vname + '</a>' + '<span>' + vmessage + '</span>');
+                newMessage.classList.add('messageStyle');
             // create <button> element named removeButton
               var removeButton = document.createElement('button');
                 // set inner text to 'remove', set type to 'button'
                 removeButton.innerHTML = 'remove';
                 removeButton.type = 'button';
+                removeButton.classList.add('removeButt');
                 // add event listener that handles 'click' event, use parentNode to find parent func named entry 
                 removeButton.addEventListener('click', 
                 function removeElement(event){
